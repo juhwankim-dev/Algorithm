@@ -3,6 +3,57 @@ package dynamicProgramming;
 import java.util.*;
 
 public class _2_OnTheWayToSchool {
+	static int[][] map;
+	public static void main(String[] args) {
+		int[][] puddles = {
+				{2,2}
+		};
+		System.out.println(solution(4, 3, puddles));
+	}
+
+    public static int solution(int m, int n, int[][] puddles) {
+		/*
+		 * Arrays.sort(puddles, new Comparator<int[]>() {
+		 * 
+		 * @Override public int compare(int[] o1, int[] o2) { if(o1[0] == o2[0]) {
+		 * return o1[1] - o2[1]; } return o1[0] - o2[0]; }
+		 * 
+		 * });
+		 */
+        
+        map = new int[n][m];
+        int len = puddles.length;
+    	for(int i=0; i<len; i++) {
+    		int x = puddles[i][0]-1;
+    		int y = puddles[i][1]-1;
+    		map[x][y] = -1;
+    	}
+        
+        dfs(0, 0, n-1, m-1);
+        
+        return map[n-1][m-1];
+    }
+    
+    public static void dfs(int x, int y, int n, int m) {
+    	if(x>n || y>m) return;
+    	
+    	switch(map[x][y]) {
+    	case -1:
+    		return;
+    	case 0:
+    		map[x][y] = 1;
+    		break;
+    	default:
+    		map[x][y] += (++map[x][y] % 1000000007);
+    	}
+    	
+    	dfs(x+1, y, n, m);
+    	dfs(x, y+1, n, m);
+    }
+}
+
+/*
+public class _2_OnTheWayToSchool {
 	static int route = 0;
 	
 	public static void main(String[] args) {
@@ -60,3 +111,56 @@ public class _2_OnTheWayToSchool {
     	return allRoute(m-1, n) + allRoute(m, n-1);
     }
 }
+*/
+
+/*
+public class _2_OnTheWayToSchool {
+public static void main(String[] args) {
+	int[][] puddles = {
+	
+	};
+	System.out.println(solution(100, 100, puddles));
+}
+
+public static int solution(int m, int n, int[][] puddles) {
+    Arrays.sort(puddles, new Comparator<int[]>() {
+
+		@Override
+		public int compare(int[] o1, int[] o2) {
+			if(o1[0] == o2[0]) {
+				return o1[1] - o2[1];
+			}
+			return o1[0] - o2[0];
+		}
+    	
+    });
+    
+    long answer = dfs(1, 1, m, n, puddles);
+    
+    return (int) (answer%1000000007);
+}
+
+public static int dfs(int x, int y, int n, int m, int[][] puddles) {
+	if(x>n || y>m) {
+		return 0;
+	} else if(x==n && y==m) {
+		return 1;
+	} else if(isPungDung(x, y, puddles)) {
+		return 0;
+	}
+	
+	return dfs(x+1, y, n, m, puddles) + dfs(x, y+1, n, m, puddles);
+}
+
+public static boolean isPungDung(int x, int y, int[][] puddles) {
+	int len = puddles.length;
+	for(int i=0; i<len; i++) {
+		if(puddles[i][0] == x && puddles[i][1] == y) {
+			return true;
+		}
+	}
+	
+	return false;
+}
+}
+*/
