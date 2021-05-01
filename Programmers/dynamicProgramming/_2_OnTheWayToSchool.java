@@ -1,7 +1,5 @@
 package dynamicProgramming;
 
-import java.util.*;
-
 public class _2_OnTheWayToSchool {
 	static int[][] map;
 	public static void main(String[] args) {
@@ -12,43 +10,31 @@ public class _2_OnTheWayToSchool {
 	}
 
     public static int solution(int m, int n, int[][] puddles) {
-		/*
-		 * Arrays.sort(puddles, new Comparator<int[]>() {
-		 * 
-		 * @Override public int compare(int[] o1, int[] o2) { if(o1[0] == o2[0]) {
-		 * return o1[1] - o2[1]; } return o1[0] - o2[0]; }
-		 * 
-		 * });
-		 */
-        
         map = new int[n][m];
-        int len = puddles.length;
-    	for(int i=0; i<len; i++) {
-    		int x = puddles[i][0]-1;
-    		int y = puddles[i][1]-1;
-    		map[x][y] = -1;
-    	}
         
-        dfs(0, 0, n-1, m-1);
-        
-        return map[n-1][m-1];
-    }
-    
-    public static void dfs(int x, int y, int n, int m) {
-    	if(x>n || y>m) return;
-    	
-    	switch(map[x][y]) {
-    	case -1:
-    		return;
-    	case 0:
-    		map[x][y] = 1;
-    		break;
-    	default:
-    		map[x][y] += (++map[x][y] % 1000000007);
+        // 웅덩이
+    	for(int[] puddle : puddles) {
+    		map[puddle[1]-1][puddle[0]-1] = -1;
     	}
     	
-    	dfs(x+1, y, n, m);
-    	dfs(x, y+1, n, m);
+    	// 내부
+    	map[0][0] = 1;
+        for(int i=0; i<n; i++) {
+        	for(int j=0; j<m; j++) {
+        		if(map[i][j] == -1) {
+        			map[i][j] = 0;
+        			continue;
+        		}
+        		
+                if(i != 0)
+                	map[i][j] += map[i-1][j] % 1000000007;
+
+                if(j != 0)
+                	map[i][j] += map[i][j-1] % 1000000007;
+        	}
+        }
+
+        return map[n-1][m-1]; // 학교 위치
     }
 }
 
@@ -161,6 +147,45 @@ public static boolean isPungDung(int x, int y, int[][] puddles) {
 	}
 	
 	return false;
+}
+}
+*/
+
+/*
+public class _2_OnTheWayToSchool {
+static int[][] map;
+public static void main(String[] args) {
+	int[][] puddles = {
+			{2,2}
+	};
+	System.out.println(solution(4, 3, puddles));
+}
+
+public static int solution(int lx, int ly, int[][] puddles) {
+    map = new int[ly+2][lx+2]; // 주어진 맵에 테두리 추가
+    map[0][1] = 1;
+    int len = puddles.length;
+	for(int i=0; i<len; i++) {
+		int x = puddles[i][0];
+		int y = puddles[i][1];
+		map[y][x] = 0;
+	}
+
+    dfs(1, 1, lx, ly);
+    
+    return map[ly][lx]; // 학교 위치
+}
+
+public static void dfs(int x, int y, int lx, int ly) {
+	if(x>lx || y>ly) return;
+	else if(map[y][x] == -1) return;
+	
+	int up = Math.max(map[y-1][x], 0);
+	int left = Math.max(map[y][x-1], 0);
+	map[y][x] = (up + left) % 1000000007;
+	
+	dfs(x+1, y, lx, ly);
+	dfs(x, y+1, lx, ly);
 }
 }
 */
