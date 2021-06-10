@@ -6,44 +6,59 @@ public class FailureRate {
 
 	public static void main(String[] args) {
 		int[] stages = {
-				2, 1, 2, 6, 2, 4, 3, 3
+				4, 4, 4, 4, 4
 		};
-		solution(5, stages);
+		
+		int[] result = solution(4, stages);
+		for(int r : result) {
+			System.out.println(r);
+		}
 	}
 
     public static int[] solution(int N, int[] stages) {
-        float[] count = new float[N+2];
-        
-        for(int stage : stages){
-            count[stage]++; // 3스테이지를 도전 중이면 3번째 배열 +1 
-        }
-        
-        int cntPlayer = stages.length;
-        float[][] result = new float[N][2];
-        for(int i=1; i<N+1; i++){
-            result[i-1][0] = i;
-            result[i-1][1] = count[i] / cntPlayer;
-            
-            cntPlayer -= count[i];
-        }
-        
-        Arrays.sort(result, new Comparator<float[]>(){
+    	// 스테이지 별 유저 인원 구하기 + 스테이지 순으로 정렬
+    	TreeMap<Integer, Integer> hs = new TreeMap<>();
+    	for(int i=1; i<=N; i++) {
+    		hs.put(i, 0);
+    	}
+    	for(int stage : stages) {
+    		if(stage != N+1) {
+    			hs.put(stage, hs.get(stage) + 1);
+    		}
+    	}
+    	
+    	// 스테이지 별 실패율 구하기
+    	float numberUsers = stages.length;
+    	float[][] failureRate = new float[N][2];
+    	int idx = 0;
+    	for(Integer key : hs.keySet()) {
+    		int unClearedUsers = hs.get(key);
+    		failureRate[idx][0] = key;
+    		failureRate[idx++][1] = unClearedUsers / numberUsers;
+    		numberUsers -= unClearedUsers;
+    	}
+    	
+    	// 실패율 높은 순서로 정렬
+    	Arrays.sort(failureRate, new Comparator<float[]>() {
 
 			@Override
 			public int compare(float[] o1, float[] o2) {
+				
+				// 실패율이 같다면 스테이지 번호가 작은 순서
 				if(o1[1] == o2[1]) {
-					return (int) (o1[0] - o2[0]);
+					return (o1[0] < o2[0]) ? -1 : 1;
 				}
-				return (int) (o2[1] - o1[1]);
+				
+				return (o2[1] < o1[1]) ? -1 : 1;
 			}
-            
-        });
-        
-        int[] answer = new int[N];
-        for(int i=0; i<result.length; i++) {
-        	answer[i] = (int) result[i][0];
-        }
-        
-        return answer;
+    		
+    	});
+    	
+    	int[] result = new int[N];
+    	idx = 0;
+    	for(float[] stage : failureRate) {
+    		result[idx++] = (int) stage[0];
+    	}
+    	return result;
     }
 }
