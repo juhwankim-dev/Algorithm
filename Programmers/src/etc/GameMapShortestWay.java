@@ -21,35 +21,44 @@ public class GameMapShortestWay {
 		Robot me = new Robot(maps, m, n);
 		dfs(me);
 
-		return min;
+		return (min == Integer.MAX_VALUE) ? -1 : min + 1;
 	}
 
 	public static void dfs(Robot me) {
-		if (me.isArrive()) {
+		if (me.isArrive(me.y, me.x)) {
 			min = Math.min(min, me.step);
+			me.visited[me.y][me.x] = false;
 			return;
 		}
 
 		if ((me.y > me.LIMIT_U) && me.moveUp()) {
 			dfs(me);
+			me.step--;
+			me.visited[me.y++][me.x] = false;
 		}
 
 		if ((me.y < me.LIMIT_D) && me.moveDown()) {
 			dfs(me);
+			me.step--;
+			me.visited[me.y--][me.x] = false;
 		}
 
 		if ((me.x < me.LIMIT_R) && me.moveRight()) {
 			dfs(me);
+			me.step--;
+			me.visited[me.y][me.x--] = false;
 		}
 
 		if ((me.x > me.LIMIT_L) && me.moveLeft()) {
 			dfs(me);
+			me.step--;
+			me.visited[me.y][me.x++] = false;
 		}
 	}
 }
 
 class Game {
-	static int[][] maps;
+	int[][] maps;
 	int LIMIT_U;
 	int LIMIT_D;
 	int LIMIT_R;
@@ -60,42 +69,34 @@ class Game {
 	Game(int[][] maps, int m, int n) {
 		this.maps = maps;
 		LIMIT_U = 0;
-		LIMIT_D = m;
-		LIMIT_R = n;
+		LIMIT_D = m - 1;
+		LIMIT_R = n - 1;
 		LIMIT_L = 0;
 		DEST_Y = m - 1;
 		DEST_X = n - 1;
 	}
 	
-	public static boolean isArrive(int y, int x) {
+	public boolean isArrive(int y, int x) {
 		return (y == DEST_Y) && (x == DEST_X);
 	}
 	
-	public static boolean isBlocked(int y, int x) {
-		return (maps[y][x] == 0) ? true : false;
+	public boolean isBlocked(int y, int x) {
+		return maps[y][x] == 0;
 	}
 }
 
 class Robot extends Game{
-	static int y;
-	static int x;
+	int y;
+	int x;
 	boolean[][] visited;
 	int step;
 
 	Robot(int[][] maps, int m, int n) {
 		super(maps, m, n);
-		this.y = 0;
-		this.x = 0;
-		this.step = 0;
+		y = 0;
+		x = 0;
+		step = 0;
 		visited = new boolean[m][n];
-	}
-	
-	public static boolean isArrive() {
-		return Game.isArrive(y, x);
-	}
-	
-	public static boolean isBlocked(int y, int x) {
-		return Game.isBlocked(y, x);
 	}
 
 	private boolean isFirstVisit(int y, int x) {
@@ -109,8 +110,7 @@ class Robot extends Game{
 	
 	boolean moveUp() {
 		if (isFirstVisit(y-1, x) && !isBlocked(y-1, x)) {
-			visited[y][x] = true;
-			y--;
+			visited[y--][x] = true;
 			step++;
 			return true;
 		}
@@ -120,8 +120,7 @@ class Robot extends Game{
 
 	boolean moveDown() {
 		if (isFirstVisit(y+1, x) && !isBlocked(y+1, x)) {
-			visited[y][x] = true;
-			y++;
+			visited[y++][x] = true;
 			step++;
 			return true;
 		}
@@ -131,8 +130,7 @@ class Robot extends Game{
 
 	boolean moveRight() {
 		if (isFirstVisit(y, x+1) && !isBlocked(y, x+1)) {
-			visited[y][x] = true;
-			x++;
+			visited[y][x++] = true;
 			step++;
 			return true;
 		}
@@ -142,8 +140,7 @@ class Robot extends Game{
 
 	boolean moveLeft() {
 		if (isFirstVisit(y, x-1) && !isBlocked(y, x-1)) {
-			visited[y][x] = true;
-			x--;
+			visited[y][x--] = true;
 			step++;
 			return true;
 		}
