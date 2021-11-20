@@ -68,7 +68,7 @@
 
 |                 문제              |                             풀이                             |
 | :-------------------------------: | :----------------------------------------------------------- |
-| 프로그래머스 [소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839) <br> 프로그래머스 [게임 맵 최단거리](https://programmers.co.kr/learn/courses/30/lessons/1844) | ([풀이](https://github.com/juhwankim-dev/ssafyAlgorithmStudy/blob/master/src/ssafyAlgorithmStudy/programmers/level2/Week13_%EC%86%8C%EC%88%98_%EC%B0%BE%EA%B8%B0.java)) <br> ([풀이](https://github.com/juhwankim-dev/ssafyAlgorithmStudy/blob/master/src/ssafyAlgorithmStudy/programmers/level2/Week13_%EA%B2%8C%EC%9E%84_%EB%A7%B5_%EC%B5%9C%EB%8B%A8%EA%B1%B0%EB%A6%AC.java))
+| 프로그래머스 [소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839) <br> 프로그래머스 [게임 맵 최단거리](https://programmers.co.kr/learn/courses/30/lessons/1844) <br> 프로그래머스 [조이스틱](https://programmers.co.kr/learn/courses/30/lessons/42860) | ([풀이](https://github.com/juhwankim-dev/ssafyAlgorithmStudy/blob/master/src/ssafyAlgorithmStudy/programmers/level2/Week13_%EC%86%8C%EC%88%98_%EC%B0%BE%EA%B8%B0.java)) <br> ([풀이](https://github.com/juhwankim-dev/ssafyAlgorithmStudy/blob/master/src/ssafyAlgorithmStudy/programmers/level2/Week13_%EA%B2%8C%EC%9E%84_%EB%A7%B5_%EC%B5%9C%EB%8B%A8%EA%B1%B0%EB%A6%AC.java)) <br> ([풀이](https://github.com/juhwankim-dev/ssafyAlgorithmStudy/blob/master/src/ssafyAlgorithmStudy/programmers/level2/Week13_%EC%A1%B0%EC%9D%B4%EC%8A%A4%ED%8B%B1.java))
 
 <br>
 
