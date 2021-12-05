@@ -73,3 +73,21 @@
 <br>
 
 </details>
+
+
+
+
+<details markdown="1">
+<summary><strong> 🍂 21/11/29 ~ 21/12/05 </strong></summary>
+<br>
+<br>
+
+|                 문제              |                             풀이                             |
+| :-------------------------------: | :----------------------------------------------------------- |
+| 프로그래머스 [예상 대진표](https://programmers.co.kr/learn/courses/30/lessons/12985) <br> 프로그래머스 [순위 검색](https://programmers.co.kr/learn/courses/30/lessons/72412) <br> BOJ 1012 [유기농 배추](https://www.acmicpc.net/problem/1012) <br> 산타클로스는_바빠 (직접 만든 문제) <br> BOJ 2178 [미로 탐색](https://www.acmicpc.net/problem/2178) <br> SWEA 1865 [동철이의 일 분배](https://bit.ly/3xVLS0k) <br> BOJ 7576 [토마토](https://www.acmicpc.net/problem/7576) <br> BOJ 7569 [토마토 3차원](https://www.acmicpc.net/problem/7569) | ([풀이](https://github.com/juhwankim-dev/ssafyAlgorithmStudy/blob/master/src/ssafyAlgorithmStudy/programmers/level2/Week14_%EC%98%88%EC%83%81_%EB%8C%80%EC%A7%84%ED%91%9C.java)) <br> ([풀이](https://github.com/juhwankim-dev/ssafyAlgorithmStudy/blob/master/src/ssafyAlgorithmStudy/programmers/level2/Week14_%EC%88%9C%EC%9C%84_%EA%B2%80%EC%83%89.java)) <br> ([풀이](./BaekJoon/src/_1012_유기농_배추.java)) <br> ([풀이](./SelfMade/직접만든문제_산타클로스는_바빠.java)) <br> ([풀이](./BaekJoon/src/_2178_미로_탐색.java)) <br> ([풀이](./Samsung/src/algorithm/_1865_동철이의_일_분배.java)) <br> ([풀이](./BaekJoon/src/_7576_토마토.java)) <br> ([풀이](./BaekJoon/src/_7569_토마토_3차원.java))
+
+
+
+<br>
+
+</details>
