@@ -121,7 +121,7 @@
 
 |                 문제              |                             풀이                             |
 | :-------------------------------: | :----------------------------------------------------------- |
-| 프로그래머스 [괄호 회전하기](https://programmers.co.kr/learn/courses/30/lessons/76502)  | ([풀이](https://github.com/juhwankim-dev/ssafyAlgorithmStudy/blob/master/src/ssafyAlgorithmStudy/programmers/level2/Week15_%EA%B4%84%ED%98%B8_%ED%9A%8C%EC%A0%84%ED%95%98%EA%B8%B0.java))
+| 프로그래머스 [H-Index](https://programmers.co.kr/learn/courses/30/lessons/42747) <br> 프로그래머스 [다리를 지나는 트럭](https://programmers.co.kr/learn/courses/30/lessons/42583) <br> 프로그래머스 [카펫](https://programmers.co.kr/learn/courses/30/lessons/42842)| ([풀이](https://github.com/juhwankim-dev/ssafyAlgorithmStudy/blob/master/src/ssafyAlgorithmStudy/programmers/level2/Week16_H_Index.java)) <br> ([풀이](https://github.com/juhwankim-dev/ssafyAlgorithmStudy/blob/master/src/ssafyAlgorithmStudy/programmers/level2/Week16_%EB%8B%A4%EB%A6%AC%EB%A5%BC_%EC%A7%80%EB%82%98%EB%8A%94_%ED%8A%B8%EB%9F%AD.java)) <br> ([풀이](https://github.com/juhwankim-dev/ssafyAlgorithmStudy/blob/master/src/ssafyAlgorithmStudy/programmers/level2/Week16_%EC%B9%B4%ED%8E%AB.java))
 
 
 <br>
@@ -173,7 +173,7 @@
 
 |                 문제              |                             풀이                             |
 | :-------------------------------: | :----------------------------------------------------------- |
-| 프로그래머스 [괄호 회전하기](https://programmers.co.kr/learn/courses/30/lessons/76502)  | ([풀이](https://github.com/juhwankim-dev/ssafyAlgorithmStudy/blob/master/src/ssafyAlgorithmStudy/programmers/level2/Week15_%EA%B4%84%ED%98%B8_%ED%9A%8C%EC%A0%84%ED%95%98%EA%B8%B0.java))
+| 프로그래머스 [큰 수 만들기](https://programmers.co.kr/learn/courses/30/lessons/42883) <br> 프로그래머스 [프렌즈4블록](https://programmers.co.kr/learn/courses/30/lessons/17679) <br> 프로그래머스 [피로도](https://programmers.co.kr/learn/courses/30/lessons/87946) | ([풀이](https://github.com/juhwankim-dev/ssafyAlgorithmStudy/blob/master/src/ssafyAlgorithmStudy/programmers/level2/Week17_%ED%81%B0_%EC%88%98_%EB%A7%8C%EB%93%A4%EA%B8%B0.java)) <br> ([풀이](https://github.com/juhwankim-dev/ssafyAlgorithmStudy/blob/master/src/ssafyAlgorithmStudy/programmers/level2/Week17_%ED%94%84%EB%A0%8C%EC%A6%884%EB%B8%94%EB%A1%9D.java)) <br> ([풀이](https://github.com/juhwankim-dev/ssafyAlgorithmStudy/blob/master/src/ssafyAlgorithmStudy/programmers/level2/Week17_%ED%94%BC%EB%A1%9C%EB%8F%84.java))
 
 
 <br>
@@ -185,13 +185,13 @@
 
 
 <details markdown="1">
-<summary><strong> 🎅 22/01/10 ~ 22/01/16 </strong></summary>
+<summary><strong> ⛄️ 22/01/10 ~ 22/01/16 </strong></summary>
 <br>
 <br>
 
 |                 문제              |                             풀이                             |
 | :-------------------------------: | :----------------------------------------------------------- |
-| 프로그래머스 [괄호 회전하기](https://programmers.co.kr/learn/courses/30/lessons/76502)  | ([풀이](https://github.com/juhwankim-dev/ssafyAlgorithmStudy/blob/master/src/ssafyAlgorithmStudy/programmers/level2/Week15_%EA%B4%84%ED%98%B8_%ED%9A%8C%EC%A0%84%ED%95%98%EA%B8%B0.java))
+| 프로그래머스 [2개 이하로 다른 비트](https://programmers.co.kr/learn/courses/30/lessons/77885) <br> 프로그래머스 [삼각 달팽이](https://programmers.co.kr/learn/courses/30/lessons/68645) <br> 프로그래머스 [영어 끝말잇기](https://programmers.co.kr/learn/courses/30/lessons/12981) | ([풀이](https://github.com/juhwankim-dev/ssafyAlgorithmStudy/blob/master/src/ssafyAlgorithmStudy/programmers/level2/Week18_2%EA%B0%9C_%EC%9D%B4%ED%95%98%EB%A1%9C_%EB%8B%A4%EB%A5%B8_%EB%B9%84%ED%8A%B8.java)) <br> ([풀이](https://github.com/juhwankim-dev/ssafyAlgorithmStudy/blob/master/src/ssafyAlgorithmStudy/programmers/level2/Week18_%EC%82%BC%EA%B0%81_%EB%8B%AC%ED%8C%BD%EC%9D%B4.java)) <br> ([풀이](https://github.com/juhwankim-dev/ssafyAlgorithmStudy/blob/master/src/ssafyAlgorithmStudy/programmers/level2/Week18_%EC%98%81%EC%96%B4_%EB%81%9D%EB%A7%90%EC%9E%87%EA%B8%B0.java))
 
 
 <br>
@@ -203,13 +203,13 @@
 
 
 <details markdown="1">
-<summary><strong> 🎅 22/01/17 ~ 22/01/23 </strong></summary>
+<summary><strong> ⛄️ 22/01/17 ~ 22/01/23 </strong></summary>
 <br>
 <br>
 
 |                 문제              |                             풀이                             |
 | :-------------------------------: | :----------------------------------------------------------- |
-| 프로그래머스 [괄호 회전하기](https://programmers.co.kr/learn/courses/30/lessons/76502)  | ([풀이](https://github.com/juhwankim-dev/ssafyAlgorithmStudy/blob/master/src/ssafyAlgorithmStudy/programmers/level2/Week15_%EA%B4%84%ED%98%B8_%ED%9A%8C%EC%A0%84%ED%95%98%EA%B8%B0.java))
+| 프로그래머스 [주식가격](https://programmers.co.kr/learn/courses/30/lessons/42584) <br> 프로그래머스 [구명보트](https://programmers.co.kr/learn/courses/30/lessons/42885) | ([풀이](https://github.com/juhwankim-dev/ssafyAlgorithmStudy/blob/master/src/ssafyAlgorithmStudy/programmers/level2/Week19_%EC%A3%BC%EC%8B%9D%EA%B0%80%EA%B2%A9.java)) <br> ([풀이](https://github.com/juhwankim-dev/ssafyAlgorithmStudy/blob/master/src/ssafyAlgorithmStudy/programmers/level2/Week19_%EA%B5%AC%EB%AA%85%EB%B3%B4%ED%8A%B8.java))
 
 
 <br>
