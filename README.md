@@ -110,3 +110,107 @@
 <br>
 
 </details>
+
+
+
+
+<details markdown="1">
+<summary><strong> 🎅 21/12/13 ~ 21/12/19 </strong></summary>
+<br>
+<br>
+
+|                 문제              |                             풀이                             |
+| :-------------------------------: | :----------------------------------------------------------- |
+| 프로그래머스 [H-Index](https://programmers.co.kr/learn/courses/30/lessons/42747) <br> 프로그래머스 [다리를 지나는 트럭](https://programmers.co.kr/learn/courses/30/lessons/42583) <br> 프로그래머스 [카펫](https://programmers.co.kr/learn/courses/30/lessons/42842) <br> BOJ 2667[단지번호붙이기](https://www.acmicpc.net/problem/2667) <br> BOJ 4963[섬의 개수](https://www.acmicpc.net/problem/4963) <br> BOJ 9466[텀 프로젝트](https://www.acmicpc.net/problem/9466) <br> BOJ 2331[반복순열](https://www.acmicpc.net/problem/2331) <br> BOJ 10451[순열 사이클](https://www.acmicpc.net/problem/10451) <br> BOJ 11724[연결 요소의 개수](https://www.acmicpc.net/problem/11724) | ([풀이](https://github.com/juhwankim-dev/ssafyAlgorithmStudy/blob/master/src/ssafyAlgorithmStudy/programmers/level2/Week16_H_Index.java)) <br> ([풀이](https://github.com/juhwankim-dev/ssafyAlgorithmStudy/blob/master/src/ssafyAlgorithmStudy/programmers/level2/Week16_%EB%8B%A4%EB%A6%AC%EB%A5%BC_%EC%A7%80%EB%82%98%EB%8A%94_%ED%8A%B8%EB%9F%AD.java)) <br> ([풀이](./BaekJoon/src/_2667_단지번호붙이기_.java)) <br> ([풀이](./BaekJoon/src/_4963_섬의_개수_.java)) <br> ([풀이](https://github.com/juhwankim-dev/ssafyAlgorithmStudy/blob/master/src/ssafyAlgorithmStudy/programmers/level2/Week16_%EC%B9%B4%ED%8E%AB.java)) <br> ([풀이](./BaekJoon/src/_9466번_텀_프로젝트_.java)) <br> ([풀이](./BaekJoon/src/_2331_반복수열_.java)) <br> ([풀이](./BaekJoon/src/_10451_순열_사이클.java)) <br> ([풀이](./BaekJoon/src/_11724_연결_요소의_개수.java))
+
+
+<br>
+
+</details>
+
+
+
+
+<details markdown="1">
+<summary><strong> 🎅 21/12/20 ~ 21/12/26 </strong></summary>
+<br>
+<br>
+
+|                 문제              |                             풀이                             |
+| :-------------------------------: | :----------------------------------------------------------- |
+| BOJ 2146[다리 만들기](https://www.acmicpc.net/problem/2146) <br> BOJ 1991[트리 순회](https://www.acmicpc.net/problem/1991) <br> BOJ 11725[트리의 부모 찾기](https://www.acmicpc.net/problem/11725) <br> BOJ 1167[트리의 지름](https://www.acmicpc.net/problem/1167) <br> BOJ 1967[트리의 지름](https://www.acmicpc.net/problem/1967) | ([풀이](./BaekJoon/src/_2146_다리_만들기.java)) <br> ([풀이](./BaekJoon/src/_1991번_트리_순회.java)) <br> ([풀이](./BaekJoon/src/_11725_트리의_부모_찾기.java)) <br> ([풀이](./BaekJoon/src/_1167_트리의_지름.java)) <br> ([풀이](./BaekJoon/src/_1967_트리의_지름_.java))
+
+
+<br>
+
+</details>
+
+
+
+
+<details markdown="1">
+<summary><strong> 🎅 21/12/27 ~ 22/01/02 </strong></summary>
+<br>
+<br>
+
+|                 문제              |                             풀이                             |
+| :-------------------------------: | :----------------------------------------------------------- |
+| BOJ 2805[나무 자르기](https://www.acmicpc.net/problem/2805) <br> BOJ 2110[공유기 설치](https://www.acmicpc.net/problem/2110) <br> BOJ 1992[쿼드트리](https://www.acmicpc.net/problem/1992) <br> BOJ 1780[종이의 개수](https://www.acmicpc.net/problem/1780) <br> BOJ 1654[랜선 자르기](https://www.acmicpc.net/problem/1654) | ([풀이](./BaekJoon/src/_2805_나무_자르기.java)) <br> ([풀이](./BaekJoon/src/_2110_공유기_설치.java)) <br> ([풀이](./BaekJoon/src/_1992_쿼드트리.java)) <br> ([풀이](./BaekJoon/src/_1780_종이의_개수.java)) <br> ([풀이](./BaekJoon/src/_1654_랜선_자르기.java))
+
+
+<br>
+
+</details>
+
+
+
+
+
+<details markdown="1">
+<summary><strong> 🎅 22/01/03 ~ 22/01/09 </strong></summary>
+<br>
+<br>
+
+|                 문제              |                             풀이                             |
+| :-------------------------------: | :----------------------------------------------------------- |
+| 프로그래머스 [큰 수 만들기](https://programmers.co.kr/learn/courses/30/lessons/42883) <br> 프로그래머스 [프렌즈4블록](https://programmers.co.kr/learn/courses/30/lessons/17679) <br> 프로그래머스 [피로도](https://programmers.co.kr/learn/courses/30/lessons/87946) <br> BOJ 11726[2xn 타일링](https://www.acmicpc.net/problem/11726) <br> BOJ 11047[동전 0](https://www.acmicpc.net/problem/11047) <br> BOJ 10816[숫자 카드 2](https://www.acmicpc.net/problem/10816) <br> BOJ 10815[숫자 카드](https://www.acmicpc.net/problem/10815) | ([풀이](https://github.com/juhwankim-dev/ssafyAlgorithmStudy/blob/master/src/ssafyAlgorithmStudy/programmers/level2/Week17_%ED%81%B0_%EC%88%98_%EB%A7%8C%EB%93%A4%EA%B8%B0.java)) <br> ([풀이](https://github.com/juhwankim-dev/ssafyAlgorithmStudy/blob/master/src/ssafyAlgorithmStudy/programmers/level2/Week17_%ED%94%84%EB%A0%8C%EC%A6%884%EB%B8%94%EB%A1%9D.java)) <br> ([풀이](https://github.com/juhwankim-dev/ssafyAlgorithmStudy/blob/master/src/ssafyAlgorithmStudy/programmers/level2/Week17_%ED%94%BC%EB%A1%9C%EB%8F%84.java)) <br> ([풀이](./BaekJoon/src/_11726_2xn_타일링.java)) <br> ([풀이](./BaekJoon/src/_11047_동전_0.java)) <br> ([풀이](./BaekJoon/src/_10816_숫자_카드_2.java)) <br> ([풀이](./BaekJoon/src/_10815_숫자_카드.java))
+
+
+
+<br>
+
+</details>
+
+
+
+
+
+<details markdown="1">
+<summary><strong> ⛄️ 22/01/10 ~ 22/01/16 </strong></summary>
+<br>
+<br>
+
+|                 문제              |                             풀이                             |
+| :-------------------------------: | :----------------------------------------------------------- |
+| 프로그래머스 [2개 이하로 다른 비트](https://programmers.co.kr/learn/courses/30/lessons/77885) <br> 프로그래머스 [삼각 달팽이](https://programmers.co.kr/learn/courses/30/lessons/68645) <br> 프로그래머스 [영어 끝말잇기](https://programmers.co.kr/learn/courses/30/lessons/12981) <br> BOJ 14503[로봇 청소기](https://www.acmicpc.net/problem/14503) <br> BOJ 11728[배열 합치기](https://www.acmicpc.net/problem/11728) | ([풀이](https://github.com/juhwankim-dev/ssafyAlgorithmStudy/blob/master/src/ssafyAlgorithmStudy/programmers/level2/Week18_2%EA%B0%9C_%EC%9D%B4%ED%95%98%EB%A1%9C_%EB%8B%A4%EB%A5%B8_%EB%B9%84%ED%8A%B8.java)) <br> ([풀이](https://github.com/juhwankim-dev/ssafyAlgorithmStudy/blob/master/src/ssafyAlgorithmStudy/programmers/level2/Week18_%EC%82%BC%EA%B0%81_%EB%8B%AC%ED%8C%BD%EC%9D%B4.java)) <br> ([풀이](https://github.com/juhwankim-dev/ssafyAlgorithmStudy/blob/master/src/ssafyAlgorithmStudy/programmers/level2/Week18_%EC%98%81%EC%96%B4_%EB%81%9D%EB%A7%90%EC%9E%87%EA%B8%B0.java)) <br> ([풀이](./BaekJoon/src/_14503_로봇_청소기.java)) <br> ([풀이](./BaekJoon/src/_11728_배열_합치기.java))
+
+<br>
+
+</details>
+
+
+
+
+
+<details markdown="1">
+<summary><strong> ⛄️ 22/01/17 ~ 22/01/23 </strong></summary>
+<br>
+<br>
+
+|                 문제              |                             풀이                             |
+| :-------------------------------: | :----------------------------------------------------------- |
+| 프로그래머스 [주식가격](https://programmers.co.kr/learn/courses/30/lessons/42584) <br> 프로그래머스 [구명보트](https://programmers.co.kr/learn/courses/30/lessons/42885) <br> BOJ 17298[오큰수](https://www.acmicpc.net/problem/17298) | ([풀이](https://github.com/juhwankim-dev/ssafyAlgorithmStudy/blob/master/src/ssafyAlgorithmStudy/programmers/level2/Week19_%EC%A3%BC%EC%8B%9D%EA%B0%80%EA%B2%A9.java)) <br> ([풀이](https://github.com/juhwankim-dev/ssafyAlgorithmStudy/blob/master/src/ssafyAlgorithmStudy/programmers/level2/Week19_%EA%B5%AC%EB%AA%85%EB%B3%B4%ED%8A%B8.java)) <br> ([풀이](./BaekJoon/src/_17298_오큰수.java))
+
+<br>
+
+</details>
